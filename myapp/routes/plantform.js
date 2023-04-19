@@ -8,7 +8,7 @@ router.get('/', (req, res, next) => {
     // 检测是否为 Android 设备
     if (userAgent.toLowerCase().includes('android')) {
         // 如果是 Android 设备，重定向到 Android 界面
-        res.redirect('/static/images/android.txt');
+        res.redirect('/static/apk/ar.apk');
         return;
     }
 
